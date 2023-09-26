@@ -1,0 +1,24 @@
+body {
+    background-color: lightseagreen
+}
+h2 {
+    color:darkblue
+}
+p {
+    color:saddlebrown
+}
+#picture {
+    text-align: center;
+}
+#idezetek_li {
+    list-style-type:georgian;
+}
+#beagyazott_li {
+    list-style-type: georgian;
+}
+#fogalmak_li {
+    list-style-type:square;
+}
+#vasarlas_li {
+    list-style-type: circle;
+}
