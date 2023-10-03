@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td, th {
+            border: 1px black solid;
+        }
+        table {
+            border: 4px red double;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        Táblázat:
+        sorok, oszlopok, metszetük a cellák
+        table = táblázat
+        tb - table row - egy sora a táblázatnak
+        td - table data - egy cellája a táblázatnak
+        th - table heading - "cím" cella - saját formázása van
+    -->
+
+    <table>
+        <tr>
+            <th>Oszlop 1</th>
+            <th>Oszlop 2</th>
+            <th>Oszlop 3</th>
+        </tr>
+        <tr>
+            <td>Sor1 - Cella1</td>
+            <td>Sor1 - Cella2</td>
+            <td>Sor1 - Cella3</td>
+        </tr>
+        <tr>
+            <td>Sor2 - Cella1</td>
+            <td>Sor2 - Cella2 szöveg</td>
+            <td>Sor2 - Cella3</td>
+        </tr>
+        <tr>
+            <td>Sor3 - Cella1</td>
+            <td>Sor3 - Cella2</td>
+            <td>Sor3 - Cella3</td>
+        </tr>
+        <tr>
+            <td>Sor4 - Cella1</td>
+            <td>Sor4 - Cella2</td>
+            <td>Sor4 - Cella3</td>
+        </tr>
+        <tr>
+            <td colspan="2">Sor5 cella1 (2 oszlop)</td>
+            <td>sor5 Cella3</td>
+        </tr>
+        <tr>
+            <td colspan="3">Sor6 cella1 (3 oszlop)</td>
+            <td>4. cella</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Sor7 cella1</td>
+            <td>sor7 cella2</td>
+        </tr>
+        <tr>
+            <td>Sor8 - Cella2</td>
+            <td>Sor8 - Cella3</td>
+        </tr>
+        <tr>
+            <td>sor9 - cella1</td>
+            <td>sor9 - cella2</td>
+            <td>sor9 - cella3</td>
+        </tr>
+        <tr>
+            <td>sor10 - cella1</td>
+            <td></td>
+            <td>sor10 - cella3</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
