@@ -1,0 +1,38 @@
+td, th {
+    border: 1px black dashed;
+}
+table {
+    border: 4px rgb(0, 0, 0) solid;
+    border-collapse: collapse;
+}
+thead {
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+}
+
+/*
+Selector - kiválasztja, hogy melyik elemre érvényes a beállítás, pl tf: th::
+pseudo-selector: nem konkrét elemre utal, hanem kiválasutható, hoyy egy elemnek milyen változásra érvényes a beállítás - pl last-child, visited
+*/
+
+td:last-child, th:last-child {
+    border-right-width: none;
+}
+a:visited {
+    color:green
+}
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+thead {
+    background-color: gray;
+}
+tbody>tr:nth
+/*
+> - szülő gyermek kapcsolatot jelöl
+csak a tbody-n belül közvetlenül elhelyezkedő tr-ekre érvényes beállítás
+*/
+tr:nth-child(1) {
+    background-color: red;
+}
