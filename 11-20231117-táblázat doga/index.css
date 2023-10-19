@@ -1,0 +1,22 @@
+body {
+    background-color: grey;
+}
+
+table {
+    background-color: white;
+    border-collapse: collapse;
+    border: 3px solid blue;
+    text-align: center;
+}
+ 
+td {
+    border: 1px solid red;
+}
+
+h1 {
+    color: darkblue;
+}
+
+a {
+    text-decoration: none;
+}

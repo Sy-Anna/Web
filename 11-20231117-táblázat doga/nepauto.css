@@ -1,0 +1,37 @@
+body {
+    background-color: grey;
+}
+
+table {
+    width: 1000px;
+    background-color: white;
+    border-collapse: collapse;
+    border: 2px solid blue;   
+}
+
+td {
+    border: 1px solid red;
+    border-collapse:collapse;
+}
+
+thead {
+    color: darkblue;
+    text-align: left;
+}
+
+#brown {
+    color: brown;
+}
+
+#rightb {
+    text-align: right;
+    font-weight: bold;
+}
+
+p {
+    text-align: justify;
+}
+
+ul {
+    list-style-type: square;
+}
