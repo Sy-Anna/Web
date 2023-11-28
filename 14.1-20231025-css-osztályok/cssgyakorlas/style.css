@@ -1,0 +1,226 @@
+
+
+.balra {
+    text-align: left;
+}
+.jobbra {
+    text-align: right;
+}
+.kozepre {
+    text-align: center;
+}
+.sorkizart {
+    text-align: justify;
+}
+
+.felkover {
+    font-weight: bold;
+}
+.dolt {
+    font-style: italic;
+}
+.alah {
+    text-decoration: underline 1px solid black;
+}
+.ath {
+    text-decoration: line-through 2px wavy black;
+}
+
+.piros {
+    color: red;
+}
+.zold {
+    color: green;
+}
+.kek {
+    color: blue;
+}
+.sarga {
+    color: yellow;
+}
+.narancs {
+    color: orange;
+}
+.lila {
+    color: purple;
+}
+.fekete {
+    color: black;
+}
+.feher {
+    color: white;
+}
+
+.pirosh {
+    background-color: red;
+}
+.zoldh {
+    background-color: green;
+}
+.kekh {
+    background-color: blue;
+}
+.sargah {
+    background-color: yellow;
+}
+.narancsh {
+    background-color: orange;
+}
+.lilah {
+    background-color: purple;
+}
+.feketeh {
+    background-color: black;
+}
+.feher {
+    background-color: white;
+}
+
+.pirossz {
+    border: 3px solid red;
+}
+.zoldsz {
+    border: 3px solid green;
+}
+.keksz {
+    border: 3px solid blue;
+}
+.sargasz {
+    border: 3px solid yellow;
+}
+.narancssz {
+    border: 3px solid orange;
+}
+.lilasz {
+    border: 3px solid purple;
+}
+.feketesz {
+    border: 3px solid black;
+}
+.fehersz {
+    border: 3px solid white;
+}
+
+.nolist {
+    list-style-type: none;
+}
+.korlist {
+    list-style-type:circle;
+}
+.negyzetlist {
+    list-style-type: square;
+}
+.lemezlist {
+    list-style-type: disc;
+}
+.szamlist {
+    list-style-type:decimal;
+}
+.kisblist {
+    list-style-type: lower-latin;
+}
+.nagyblist {
+    list-style-type: upper-latin;
+}
+.kisrlist {
+    list-style-type: lower-roman;
+}
+.nagyrlist {
+    list-style-type: upper-roman;
+}
+
+.m0 {
+    margin: 0px;
+}
+.m1 {
+    margin: 4px;
+}
+.m2 {
+    margin: 8px;
+}
+.m3 {
+    margin: 12px;
+}
+.m4 {
+    margin: 16px;
+}
+.mtop {
+    margin-top: 10px;
+}
+.mbottom {
+    margin-bottom: 10px;
+}
+.mleft {
+    margin-left: 10px;
+}
+.mright {
+    margin-right: 10px;
+}
+
+.p0 {
+    padding: 0px;
+}
+.p1 {
+    padding: 4px;
+}
+.p2 {
+    padding: 8px;
+}
+.p3 {
+    padding: 12px;
+}
+.p4 {
+    padding: 16px;
+}
+.ptop {
+    padding-top: 10px;
+}
+.pbottom {
+    padding-bottom: 10px;
+}
+.pleft {
+    padding-left: 10px;
+}
+.pright {
+    padding-right: 10px;
+}
+
+.inline {
+    display: inline;
+}
+.blick {
+    display: block;
+}
+.inlineblock {
+    display: inline-block;
+}
+
+.sz25 {
+    width: 25%;
+}
+.sz50 {
+    width: 50%;
+}
+.sz75 {
+    width: 75%;
+}
+.sz100 {
+    width: 100%;
+}
+
+.max25 {
+    max-width: 25%;
+}
+.max50 {
+    max-width: 50%;
+}
+.max75 {
+    max-width: 75%;
+}
+.max100 {
+    max-width: 100%;
+}
+
+.tablazat {
+    border-collapse: collapse;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css osztályok</title>
+    <style>
+        .zold {
+            color: green !;
+        }
+        #pirosID {
+            color: red;
+        }
+        .kekCLASS {
+            color: blue;
+        }
+        .felkover {
+            font-weight: bold;
+        }
+        h2.kekhatter {
+            background-color: blue;
+        }
+        #asd {
+            color: yellowgreen;
+        }
+        #asd {
+            color: blueviolet;
+        }
+
+        .dolt {
+            font-style: italic;
+        }
+
+        div>p.sarga {
+                color: blue;
+        }
+
+        p.sarga {
+            color: yellow;
+        }
+
+        p {
+            color:blue;
+        }
+    
+        
+    </style>
+</head>
+<body>
+    <h1 class="zold">Főcim</h1>
+    <h2 class="zold">Főcím</h2>
+    
+    <p id="pirosID">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt nam obcaecati dicta eius laboriosam minus, reiciendis rem voluptatum animi ullam id explicabo autem voluptate amet inventore placeat facere corporis ex?</p>
+    <p id="pirosID">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia corrupti animi, illo deserunt nulla dolorem odio autem quam! Eum iusto eos pariatur provident, sed quae. Modi laudantium ullam quia nulla!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, earum ullam. Hic repellat ullam ut reprehenderit incidunt pariatur laudantium architecto assumenda tempore eos impedit neque quia mollitia accusamus, ipsum deserunt!</p>
+    <p class="kekCLASS">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quam et, similique voluptates esse eos quaerat maiores voluptas, totam earum dignissimos aperiam officiis quia eaque vitae itaque amet? Corporis, rerum!</p>
+    <p class="kekCLASS">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, ab! Reprehenderit, incidunt veniam reiciendis, esse ea ipsum, debitis voluptatem ipsam velit iste quod repellat modi nemo. Numquam soluta iure dolore.</p>
+    <p class="kekCLASS">Erre a célra a class-t használjuk, nem az id-t!!!!</p>
+    <p class="felkover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores earum laborum fugit quam, suscipit dicta nostrum ut ipsum excepturi odit consequatur numquam itaque minus cumque adipisci ducimus sequi cum doloremque.</p>
+    <p class="kekCLASS felkover">Egyszerre több class-t is lehet használni</p>
+
+    <h1 class="kekhatter">h1 cím</h1>
+    <h2 class="kekhatter">h2 cím</h2>
+    <h2 class="kekhatter">h2 cím</h2>
+    <h2 class="kekhatter">css-ben selectorral meg lehet adni, hogy a class csak bizonyos feltételekkel működjön, pl csak h2-es címsorokon</h2>
+
+    <p id="asd">A css az időrendben utolsó beállítást hajtja végre</p>
+
+    <p> css végén !important felül fog írni mindent, azt veszi legfontosabbnak, de ezt ritkán használjuk</p>
+
+    <div>
+        <p class="sarga">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sunt debitis minus cupiditate, facilis ut laborum amet vero optio fugiat adipisci id hic beatae neque aliquam excepturi voluptate consequatur expedita.
+        </p>
+    </div>
+    
+    <p class="sarga">
+        Lorem ipsum dolor <span class="felkover">sit amet consectetur adipisicing elit.</span> Tempore <span class="dolt">architecto odit esse aperiam ipsa praesentium dicta nesciunt cum</span> incidunt ex. Quia sed temporibus voluptatum fuga sequi non sint aperiam ipsam!
+    </p>
+</body>
+</html>

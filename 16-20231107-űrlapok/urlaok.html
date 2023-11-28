@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap vagyok</title>
+</head>
+<body>
+    
+    <input type="button">
+    <input type="checkbox">
+    <input type="password" placeholder="jelszó">
+    <input type="file">
+    <br>
+    <br>
+    <br>
+
+    <form>
+
+            <label for="nev">Név:</label>
+            <input type="text" placeholder="Add meg a neved:" id="nev" name="nev" value="elküld">
+            <input type="submit">
+            <br>
+            <label for="email">Ímél:</label>
+            <input type="email" placeholder="add meg az emailed!" id="email">
+            <br>
+            <label for="tel">Tel.szám:</label>
+            <input type="tel" id="tel" placeholder="telefonszám" name="tel">
+            <br><label for="jelszo">Jelsz.:</label>
+            <input type="password" placeholder="jelszo" id="jelszo" name="jelszo">
+            <br>
+            <label for="szul">Szül</label>
+            <input type="date" name="szul" id="szul" placeholder="Szül">
+            <br>
+            <label for="nem">nem</label>
+            <input type="radio" name="nem" value="nrm_férfi">
+            <label for="nem férfi">no nrm_férfi</label>
+            <input type="radio" name="nem" value="nő">
+            <label for="nem_no">no</label>
+            <input type="radio" name="nem" value="egyéb">
+            <label for="nem_egyeb[Ägs]"></label>
+            <br>
+            <input type="submit">
+            <br>
+            
+            <label for="vegzettseg">vegzettseg</label>
+             <select name="iskolsvéu" id="vegzettseg"></select>
+             <option value="ylg">szak</option>
+             <option value="szak">szak</option>
+             <option value="asd">asd</option>
+             <br>
+            <label for="megjegyz">megjegyzes</label>
+            <textarea name="megjegyz" id="megjegyz" cols="30" rows="10" placeholder="megjegyzes"></textarea>
+            <!--
+                átméretezés:
+                style: resize vertical; horizontal
+            -->
+            <br>
+            <label for="aszf">
+                <input type="checkbox">
+                Elolvastam és elfogadom az aszf-et
+            </label>
+            <br>
+            <input type="submit" value="elküld">
+            <button type="reset">Alaphelyzet </button>
+    </form>
+    
+</body>
+</html>
