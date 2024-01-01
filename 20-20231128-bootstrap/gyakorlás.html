@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">ASD.com</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#regisztracio">Regisztráció</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#felhasznalok">Felhasználók</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <form id="regisztracio" class="container">
+
+        <div class="mb-3">
+            <label for="teljesnev" class="form-label">Teljes neve:</label>
+            <input type="text" id="teljesnev" class="form-control form-control-lg" placeholder="Példa Panna">
+        </div>
+
+        <div class="mb-3">
+            <label for="emailcim" class="form-label">E-mail cím</label>
+            <input type="text" id="emailcim" class="form-control form-control-lg" placeholder="példa@citromail.hu">
+        </div>
+
+        <div class="mb-3">
+            <label for="jelszo" class="form-label">Jelszó</label>
+            <input type="password" id="jelszo" class="form-control form-control-lg" placeholder="Titkos jelszó">
+        </div>
+
+        <div class="mb-3">
+            <label for="jelszo2" class="form-label">Jelszó ismét</label>
+            <input type="password" id="jelszo2" class="form-control form-control-lg" placeholder="Titkos jelszó">
+        </div>
+
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Elfogadom a felhasználói feltételeket</label>
+        </div>
+
+        <div class="mb-3 form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Feliratkozom a marketing levelek küldésére</label>
+          </div>
+
+        <div class="mb-3">
+            <input class="btn btn-primary" type="submit" value="Küldés">
+        </div>
+        
+        <div class="mb-3">
+            <input class="btn btn-warning" type="reset" value="Űrlap törlése">
+        </div>
+        
+    </form>
+
+    <div id="felhasznalok" class="container">
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-danger">Bannolt1</li>
+            <li class="list-group-item list-group-item-info">Moderátor1</li>
+            <li class="list-group-item">Béla1</li>
+            <li class="list-group-item">Béla4</li>
+            <li class="list-group-item list-group-item-info">Moderátor2</li>
+            <li class="list-group-item list-group-item-info">Moderátor3</li>
+            <li class="list-group-item">Béla2</li>
+            <li class="list-group-item list-group-item-danger">Bannolt2</li>
+            <li class="list-group-item">Béla3</li>
+            <li class="list-group-item active">Admin</li>
+        </ul>
+    </div>
+
+</body>
+</html>

@@ -9,7 +9,7 @@ body {
     background-color: rgb(228, 108, 27);
     font-size: large;
     padding: 1px;
-    position:absolute;
+    position:sticky;
     top:0;
     left:0;
     right:0;

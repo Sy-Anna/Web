@@ -9,18 +9,37 @@
 </head>
 <body>
 
-    <form action="">
+    <form class="container">
 
         <div>
-            <label for="termeknev">Termék neve</label>
-            <input type="text">
+            <label for="termeknev" class="form-label">Termék neve</label>
+            <input type="text" id="termeknev" class="form-control form-control-lg">
         </div>
 
-        <input type="text">
-        <input type="password">
-        <input type="checkbox"> Elfogadom a felhasználói feltételeket
+        <div class="form-floating">
+            <input type="password" id="jelszo" class="form-control" placeholder="Titkos jelszó">
+            <label for="jelszo" class="form-controk">Titkos jelszó</label>
+        </div>
+
+        <div class="form-check">
+            <input type="checkbox" class="form-check-control" id="terms">
+            <label class="form-check-label" for="terms">Elfogadom a felhasználói feltételeket</label>
+        </div>
+
         <input type="submit">
+        
     </form>
+
+    <div class="container">
+        <ul class="list-group">
+            <li class="list-group-item">Elem1</li>
+            <li class="list-group-item active">Elem2</li>
+            <li class="list-group-item">Elem3</li>
+            <li class="list-group-item list-group-item-info">Elem4</li>
+            <li class="list-group-item">Elem5</li>
+            <li class="list-group-item">Elem6</li>
+        </ul>
+    </div>
 
 </body>
 </html>

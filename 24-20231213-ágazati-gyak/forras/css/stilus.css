@@ -1,0 +1,8 @@
+header>image {
+    height: 250px;   
+    display: inline;
+}
+
+.navbar {
+    background-color: wheat;
+}

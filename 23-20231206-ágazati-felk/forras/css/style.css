@@ -1,0 +1,66 @@
+
+header{    
+    background-position: center center;
+    background-image: url(/forras/img/bg2.jpg);
+    height: 350px;
+}
+
+.focim {
+    opacity: 85%;
+    font-family: Verdana;
+    color: #416618;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #fd8800;
+}
+
+p {
+    text-align: justify;   
+}
+
+p::first-line {
+    text-indent: 15px !important;
+}
+
+h1{
+    background-color: rgb(248, 248, 248);
+    margin-top: 80px;
+    padding-left: 11rem;    
+}
+
+h2{    
+    margin-top: 10px;  
+    color: #416618;  
+    border-left: #416618 dotted 3px;
+    font-variant: small-caps;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-left: 15px;
+}
+
+h3{    
+    font-weight: bold;
+    color: #894f3b;
+    text-align: center;    
+    font-size: 130%;
+}
+
+
+li{
+    list-style-image: url(../img/lemon2.png);
+    list-style-position: inherit;
+    margin-left: 40px;
+}
+
+
+td,th{
+    text-align: center;
+}
+
+thead>tr:first-child{    
+    letter-spacing: 2px;    
+    text-transform:uppercase;
+}
