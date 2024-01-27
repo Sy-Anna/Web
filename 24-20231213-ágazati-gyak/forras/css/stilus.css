@@ -3,6 +3,18 @@ header>image {
     display: inline;
 }
 
+h2 {
+    color: darkblue;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-top: 8px;
+    font-size: 110%;
+}
+
+footer {
+    background-color: cornsilk;
+}
+
 .navbar {
     background-color: wheat;
 }
